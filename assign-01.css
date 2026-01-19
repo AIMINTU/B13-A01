@@ -4,10 +4,16 @@
     box-sizing: border-box;
 
 }
+
+
 #header{
-    width: 1600px;
+    max-width: 1600px;
     height: 92px;
-    border: 1px solid red;
+    background-color: #FFFFFF;
+    padding: 16px 120px 16px 120px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    
 
     
 }
@@ -15,46 +21,70 @@
     padding: 16px 120px 16px 120px;
     margin: 0 auto;
     display: flex;
+    justify-items: center;
     justify-content: space-between;
 }
 .nbar-item{
-    max-width: 1600px;
-    list-style: none;
-    align-items: center;
-    display: flex;
-    gap: 50px;
 
+    list-style-type: none;
+    display: flex;
+
+}
+.li-content{
+    display: flex;
+    justify-items: center;
+
+    
+     
+    
 }
 .nbar-item li a{
     text-decoration: none;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: #001931;
+    justify-content: space-around;
+    padding: 20px 20px;
 }
 
 .btn{
     width: 164px;
     height: 44px;
-    border-radius: 5px;
+    border-radius: 4px;
     color: white;
     font-size: 16px;
     font-weight: 600;
     background-color: #469165;
     border: none;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    margin-left: 50px;
 
     
 }
 /* banner section start */
 
 #banner{
-    width: 1600px;
+    max-width: 1600px;
     height: 674px;
-    padding: 70px 120px 134px 120px;
+    padding: 70px 120px 134px 120px; 
+    background: url(./images/hero-bg.png),#FFFFFF;
+    
+    display: flex;
     gap: 40px;
-    background: url(./images/hero-bg.png) #001931CC;
+    margin: 0 auto;
+
+
+
 }
 .banner-items{
-    width: 1360px;
+    max-width: 1360px;
     height: 379px;
     gap: 32px;
-    justify-items: center;
+    place-items: center;
+    margin: 0 auto;
+
 
 }
 .p1{
@@ -100,13 +130,182 @@ span{
     gap: 10px;
     border: #30B868;
 
+
+    
+
 }
 #banner .btn2{
     width: 198px;
     height: 52px;
     font-size: 16px;
     padding: 12px 16px;
+    color: #001931;
 
 
+
+}
+/* card section start */
+#card-section{
+    max-width: 1600px;
+    height: 448px;
+    justify-content: center;
+    place-items: center;
+}
+.card-header{
+    max-width: 1360px;
+    height: 152px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 44px;
+    margin: o auto;
+}
+.card-items{
+
+    display: flex;
+    
+}
+.card{
+    justify-content: center;
+    max-width: 210px;
+    height: 205px;
+    box-shadow: 50px;
+    text-wrap: inherit;
+    padding: 40px;
+    text-align: center;
+}
+
+.img{
+
+    border-radius: 50%;
+    background-color: #F95555;
+}
+/* second brain section */
+#second-brain{
+     max-width: 1600px;
+    height: 840px;
+    padding: 120px;
+    gap: 40px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+.second-container{
+    max-width: 1360px;
+    height: 600px;
+    gap: 60;
+}
+.second-brainitem{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.ig{
+    max-width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.secondbrain-secondcontainer{
+    
+    max-width: 700px;
+    height: 396px;
+    gap: 40px;
+    margin-top: 40px;
+}
+.para1{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500px;
+}
+.paragrap-item{
+    max-width: 700px;
+    height: 228px;
+    gap: 16px;
+}
+
+.tick{
+    background-color: #30B868;
+}
+
+
+
+/* ready section start */
+#ready{
+    max-width: 1600px;
+    height: 506px;
+    background-color: #FFFFFF;
+    padding: 2px 120px 120px 120px;
+    gap: 40px;
+
+}
+.ready-content{
+    max-width: 1360px;
+    height: 384px;
+    border-radius: 12px;
+    padding: 80px 40px;
+    gap: 40px;
+    background-color: #F7F6F2;
+    
+}
+.ready-item{
+    max-width: 1280px;
+    height: 112px;
+    gap: 16px;
+    align-items: center;
+    
+}
+.text1{
+    font-weight: 700px;
+    color: #001931;
+    
+
+}
+.text{
+    color: #627382;
+    font-size: larger;
+}
+
+
+/* footer start */
+#footer{
+    max-width: 1600px;
+    height: 348px;
+    margin-top: 40px;
+    background-color: #001931;
+}
+.footer-item{
+    max-width: 1360;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px;
+
+    
+
+}
+h3{
+    color: #FFFFFF;
+}
+ul{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+ul li{
+
+
+    text-decoration: none;
+    list-style-type: none;
+}
+ul li a{
+    color: #FFFFFF;
+}
+.copy-right{
+
+    color: #FFFFFF;
+    text-align: center;
+    
 
 }
