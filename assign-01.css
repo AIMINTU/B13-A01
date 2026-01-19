@@ -28,6 +28,7 @@
 
     list-style-type: none;
     display: flex;
+    align-items: center;
 
 }
 .li-content{
@@ -45,7 +46,8 @@
     font-weight: bold;
     color: #001931;
     justify-content: space-around;
-    padding: 20px 20px;
+    padding: 40px;
+
 }
 
 .btn{
@@ -59,7 +61,9 @@
     border: none;
     padding: 12px 16px 12px 16px;
     text-align: center;
-    margin-left: 50px;
+    margin-bottom: 5px;
+
+
 
     
 }
@@ -139,7 +143,9 @@ span{
     height: 52px;
     font-size: 16px;
     padding: 12px 16px;
-    color: #001931;
+    background-color: #001931;
+
+    color:#FFFFFF;
 
 
 
@@ -195,8 +201,8 @@ span{
 }
 .second-brainitem{
     display: flex;
-    justify-content: center;
-    padding: 10px;
+    justify-content: space-between;
+
 
 }
 
@@ -210,24 +216,39 @@ span{
     max-width: 700px;
     height: 396px;
     gap: 40px;
-    margin-top: 40px;
+    padding: 102px 0px 102px 60px;
+
+
 }
 .para1{
+    margin-top: inherit;
+
     color: #30B868;
     font-size: 16px;
     font-weight: 500px;
+}
+.para2{
+
+    font-weight: 400px;
+    color: #627382;
+    gap: 16px;
+    line-height: 20px;
 }
 .paragrap-item{
     max-width: 700px;
     height: 228px;
     gap: 16px;
+
 }
+.paragrap-item p{
 
-.tick{
-    background-color: #30B868;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #001931;
 }
-
-
+.img-check{
+    align-items: center;
+}
 
 /* ready section start */
 #ready{
@@ -254,17 +275,45 @@ span{
     align-items: center;
     
 }
+.mama{
+    font-weight: 700px;
+    color: #001931;
+
+}
+
+
 .text1{
     font-weight: 700px;
     color: #001931;
+    text-align: center;
+
     
 
 }
 .text{
     color: #627382;
     font-size: larger;
-}
+    text-align: center;
 
+}
+.btn3{
+    width: 251px;
+    height: 52px;
+    border-radius: 4px;
+    color: white;
+    font-size: larger;
+    padding: 1px,#469165;
+    background-color: #469165;
+    gap: 10px;
+    border: #30B868;
+    place-items: center;
+
+}
+.ready-second{
+    text-align: center;
+    padding-top: 15px;
+    
+}
 
 /* footer start */
 #footer{
@@ -306,6 +355,7 @@ ul li a{
 
     color: #FFFFFF;
     text-align: center;
+    margin-top: 60px;
     
 
 }
